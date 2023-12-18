@@ -58,7 +58,8 @@ def cave():
         print_pause("It turns out to be only a very small cave.")
         print_pause("Your eye catches a glint of metal behind a rock.")
         print_pause("You have found the magical Sword of Ogoroth!")
-        print_pause("You discard your silly old dagger and take the sword with you.")
+        print_pause("You discard your silly old dagger "
+                    "and take the sword with you.")
         print_pause("You walk back out to the field.\n")
         weapons.append("sword")
         house_or_cave()
